@@ -1,0 +1,10 @@
+.wrapper {
+  min-height: 35;
+  min-width: 25px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  background-color: darkgray;
+  color: #222;
+  display: flex;
+  justify-content: center;
+}
