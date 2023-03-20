@@ -37,7 +37,6 @@ function App() {
     setWords(newWords);
   };
 
-  console.log(words);
   return (
     <div className={styles.app}>
       <WordsBoard words={words} />
@@ -45,9 +44,5 @@ function App() {
     </div>
   );
 }
-
-const reducer = () => {
-  return [];
-};
 
 export default App;
