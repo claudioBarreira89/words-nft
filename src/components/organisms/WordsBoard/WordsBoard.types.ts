@@ -1,3 +1,3 @@
 export type WordsBoardProps = {
-  words: string[];
+  words: { value: string; status: string }[][];
 };

@@ -1,1 +1,1 @@
-export type WordTilesProps = { word: string };
+export type WordTilesProps = { word: { value: string; status: string }[] };

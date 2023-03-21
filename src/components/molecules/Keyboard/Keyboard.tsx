@@ -6,7 +6,6 @@ import { KeyboardProps } from "./Keyboard.types";
 
 const Keyboard: FC<KeyboardProps> = ({ onKeyClick, onEnter, onBack }) => {
   const handleClick = (value: string) => {
-    console.log(value);
     onKeyClick(value);
   };
 
